@@ -9,6 +9,15 @@ def display_board(board):
 		print("|")
 		print("|       " * 3,"|",sep="")
 		print("+-------" * 3,"+",sep="")
+	'''
+    print("+-------+-------+-------+")
+    for row in board:
+        print("|       |       |       |")
+        print(f"|   {row[0]}   |   {row[1]}   |   {row[2]}   |")
+        print("|       |       |       |")
+        print("+-------+-------+-------+")
+        
+    '''
 
 def enter_move(board):
 	ok = False	# fake assumption - we need it to enter the loop
